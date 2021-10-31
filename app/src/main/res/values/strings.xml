@@ -25,4 +25,6 @@
     <string name="sachin_tendulkar">Sachin Tendulkar</string>
     <string name="please_select_option">Please select option to proceed</string>
     <string name="insert_data_successfully">Record Insert Successfully</string>
+    <string name="game">Game %1$s :</string>
+
 </resources>

@@ -1,5 +1,6 @@
 package com.example.trivia
 
+import android.app.Activity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.trivia.roomdatabase.Quiz
 import kotlinx.android.synthetic.main.quiz_history_adapter_raw.view.*
 
-class QuizHistoryAdapter(var quizList: List<Quiz>) : RecyclerView.Adapter<QuizHistoryAdapter.QuizViewHolder>() {
+class QuizHistoryAdapter(var quizList: List<Quiz>,var activity:Activity) : RecyclerView.Adapter<QuizHistoryAdapter.QuizViewHolder>() {
     // create new views
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): QuizViewHolder {
         // inflates the card_view_design view
@@ -27,6 +28,10 @@ class QuizHistoryAdapter(var quizList: List<Quiz>) : RecyclerView.Adapter<QuizHi
     override fun onBindViewHolder(holder: QuizViewHolder, position: Int) {
         val quiz:Quiz=quizList[position]
         holder.tv_name_value.text=quiz.userName
+        holder.game_number_value.text=String.format(
+            activity.resources.getString(R.string.game),
+            position+1
+        )
         holder.tv_date_time_value.text=quiz.gameDateTime
         holder.tv_cricketer_value.text=quiz.cricketerName
         holder.tv_flag_value.text=quiz.flagColor
@@ -34,6 +39,7 @@ class QuizHistoryAdapter(var quizList: List<Quiz>) : RecyclerView.Adapter<QuizHi
 
     class QuizViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         var tv_name_value:TextView=itemView.tv_name_value
+        var game_number_value:TextView=itemView.game_number_value
         var tv_date_time_value:TextView=itemView.tv_date_time_value
         var tv_cricketer_value:TextView=itemView.tv_cricketer_value
         var tv_flag_value:TextView=itemView.tv_flag_value

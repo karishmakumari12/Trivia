@@ -32,7 +32,7 @@ class ActivitySummary : AppCompatActivity(), View.OnClickListener {
         tv_name_value.text = quizShareData.userNameEntered
         tv_date_time_value.text = quizShareData.quizStartDateTime
         tv_cricketer_value.text = quizShareData.bestCricketerSelected
-        tv_flag_value.text = quizShareData.finalFlagColorsSelected
+        tv_flag_value.text = quizShareData.finalFlagColorsSelected.trim().replace(" ",",")
 
         runBlocking { insertUserData(quizShareData) }
     }

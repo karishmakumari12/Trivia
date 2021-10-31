@@ -60,8 +60,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/margin_5dp"
+                android:singleLine="true"
                 android:textColor="@color/black"
-                android:textSize="18sp" />
+                android:textSize="@dimen/size_18sp" />
 
         </LinearLayout>
 
@@ -72,7 +73,7 @@
             android:layout_marginBottom="35dp"
             android:text="@string/here_are_the_answers_selected"
             android:textColor="@color/black"
-            android:textSize="18sp" />
+            android:textSize="@dimen/size_18sp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -150,7 +151,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:text="@string/finish"
-                android:textAllCaps="true" />
+                android:textSize="@dimen/size_18sp"
+                android:textAllCaps="false"
+                android:background="@color/purple_500" />
 
             <Button
                 android:id="@+id/history_button"
@@ -159,7 +162,10 @@
                 android:layout_marginStart="10dp"
                 android:layout_weight="1"
                 android:text="@string/history"
-                android:textAllCaps="true" />
+                android:textSize="@dimen/size_18sp"
+                android:textAllCaps="false"
+                android:background="@color/purple_500"
+                />
 
 
         </LinearLayout>

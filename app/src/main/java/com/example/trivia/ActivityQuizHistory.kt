@@ -35,7 +35,7 @@ class ActivityQuizHistory : AppCompatActivity() {
     * */
     private fun initViews() {
         val quizList: List<Quiz> = runBlocking { getGameHistoryData() }
-        val quizHistoryAdapter = QuizHistoryAdapter(quizList)
+        val quizHistoryAdapter = QuizHistoryAdapter(quizList,this@ActivityQuizHistory)
         // this creates a vertical layout Manager
         val mLayoutManager = LinearLayoutManager(
             this@ActivityQuizHistory

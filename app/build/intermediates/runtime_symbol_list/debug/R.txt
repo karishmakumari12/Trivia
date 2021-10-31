@@ -2032,6 +2032,7 @@ int id floating 0x7f0800c0
 int id forever 0x7f0800c1
 int id fragment_container_view_tag 0x7f0800c2
 int id frost 0x7f0800c3
+int id game_number_value 0x7f0801e5
 int id ghost_view 0x7f0800c4
 int id ghost_view_holder 0x7f0800c5
 int id gone 0x7f0800c6
@@ -2528,6 +2529,7 @@ int string fab_transformation_scrim_behavior 0x7f0e002a
 int string fab_transformation_sheet_behavior 0x7f0e002b
 int string finish 0x7f0e002c
 int string flag_que 0x7f0e002d
+int string game 0x7f0e0082
 int string game_date_and_time 0x7f0e002e
 int string green 0x7f0e002f
 int string hello 0x7f0e0030
