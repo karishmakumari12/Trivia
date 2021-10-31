@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="@string/cricker_que"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/options"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_18sp" />
+
+        <RadioButton
+            android:id="@+id/rb_sachin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="@string/sachin_tendulkar"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_18sp" />
+
+        <RadioButton
+            android:id="@+id/rb_virat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="@string/virat_kolli"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_18sp" />
+
+
+        <RadioButton
+            android:id="@+id/rb_adam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="@string/adam_gilchirst"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_18sp" />
+
+        <RadioButton
+            android:id="@+id/rb_jacques"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="@string/jacques_kallis"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_18sp" />
+
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/next" />
+
+    </LinearLayout>
+</ScrollView>

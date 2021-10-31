@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.trivia"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:5:5-44:19
+12        android:allowBackup="true"
+12-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.6.0] C:\Users\Darshna\.gradle\caches\transforms-3\23ca9ff004a5af136c8dda35b2a2157e\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@drawable/trivia_app_icon"
+15-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:7:9-49
+16        android:label="@string/app_name"
+16-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@drawable/trivia_app_icon"
+17-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.Trivia" >
+20-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:11:9-44
+21        <activity
+21-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:13:9-17:20
+22            android:name="com.example.trivia.ActivityQuizHistory"
+22-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:14:13-48
+23            android:exported="true" >
+23-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:15:13-36
+24        </activity>
+25        <activity
+25-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:19:9-27:20
+26            android:name="com.example.trivia.ActivitySplash"
+26-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:20:13-43
+27            android:exported="true" >
+27-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:21:13-36
+28            <intent-filter>
+28-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:22:13-26:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:23:17-69
+29-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:23:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:25:17-77
+31-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:25:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:29:9-34:20
+35            android:name="com.example.trivia.ActivityName"
+35-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:30:13-41
+36            android:exported="true" >
+36-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:31:13-36
+37        </activity>
+38        <activity android:name="com.example.trivia.ActivityBestCricketer" >
+38-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:35:9-37:20
+38-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:35:19-56
+39        </activity>
+40        <activity android:name="com.example.trivia.ActivityFlagColor" >
+40-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:38:9-40:20
+40-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:38:19-52
+41        </activity>
+42        <activity android:name="com.example.trivia.ActivitySummary" >
+42-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:41:9-43:20
+42-->C:\Users\Darshna\OneDrive\Documents\Trivia\app\src\main\AndroidManifest.xml:41:19-50
+43        </activity>
+44
+45        <service
+45-->[androidx.room:room-runtime:2.3.0] C:\Users\Darshna\.gradle\caches\transforms-3\cf28605127bd7b3084bab72a40d23f3e\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+46            android:name="androidx.room.MultiInstanceInvalidationService"
+46-->[androidx.room:room-runtime:2.3.0] C:\Users\Darshna\.gradle\caches\transforms-3\cf28605127bd7b3084bab72a40d23f3e\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+47            android:directBootAware="true"
+47-->[androidx.room:room-runtime:2.3.0] C:\Users\Darshna\.gradle\caches\transforms-3\cf28605127bd7b3084bab72a40d23f3e\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+48            android:exported="false" />
+48-->[androidx.room:room-runtime:2.3.0] C:\Users\Darshna\.gradle\caches\transforms-3\cf28605127bd7b3084bab72a40d23f3e\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+49    </application>
+50
+51</manifest>

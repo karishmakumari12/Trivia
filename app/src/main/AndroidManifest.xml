@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.trivia">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/trivia_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/trivia_app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Trivia">
+
+        <activity
+            android:name=".ActivityQuizHistory"
+            android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name=".ActivitySplash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ActivityName"
+            android:exported="true">
+
+
+        </activity>
+        <activity android:name=".ActivityBestCricketer">
+
+        </activity>
+        <activity android:name=".ActivityFlagColor">
+
+        </activity>
+        <activity android:name=".ActivitySummary">
+
+        </activity>
+    </application>
+
+</manifest>

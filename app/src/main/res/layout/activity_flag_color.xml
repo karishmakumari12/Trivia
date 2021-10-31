@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_30dp"
+        android:text="@string/flag_que"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_6dp"
+        android:layout_marginBottom="@dimen/margin_30dp"
+        android:text="@string/options"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_18sp" />
+
+    <CheckBox
+        android:id="@+id/cb_white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_30dp"
+        android:text="@string/white"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_18sp" />
+
+    <CheckBox
+        android:id="@+id/cb_yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_30dp"
+        android:text="@string/yellow"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_18sp" />
+
+    <CheckBox
+        android:id="@+id/cb_orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_30dp"
+        android:text="@string/orange"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cb_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_30dp"
+        android:text="@string/green"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_18sp" />
+
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Next" />
+
+</LinearLayout>
+</ScrollView>

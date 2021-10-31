@@ -1,0 +1,10 @@
+com/example/trivia/roomdatabase/QuizDatabase_Impl.java
+ com.example.trivia.roomdatabase.QuizDatabase_Impl
+ com.example.trivia.roomdatabase.QuizDatabase_Impl$1
+com/example/trivia/roomdatabase/QuizDao_Impl.java
+ com.example.trivia.roomdatabase.QuizDao_Impl
+ com.example.trivia.roomdatabase.QuizDao_Impl$1
+ com.example.trivia.roomdatabase.QuizDao_Impl$2
+ com.example.trivia.roomdatabase.QuizDao_Impl$3
+com/example/trivia/BuildConfig.java
+ com.example.trivia.BuildConfig
